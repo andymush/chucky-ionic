@@ -1,0 +1,7 @@
+{
+  "name": "chucky-jokes",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
