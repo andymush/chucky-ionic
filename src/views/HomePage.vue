@@ -15,8 +15,7 @@
 
       <ion-grid>
         <ion-row class="ion-justify-content-center">
-          <ion-col size="6">
-            <ion-card class="ion-text-center" >
+            <ion-card class="ion-text-center mx-auto" >
               <ion-card-header>
                 <ion-card-title>
                     <strong>Get a random joke from Chucky</strong>
@@ -42,7 +41,6 @@
 
 
             </ion-card>
-          </ion-col>
         </ion-row>
       </ion-grid>
 
@@ -58,7 +56,7 @@
 </template>
 
 <script lang="ts">
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonCard, IonCardContent, IonGrid, IonRow , IonCol , IonCardHeader, IonCardTitle, IonButton } from '@ionic/vue';
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonCard, IonCardContent, IonGrid, IonRow , IonCardHeader, IonCardTitle, IonButton } from '@ionic/vue';
 import { defineComponent } from 'vue';
 import axios from 'axios'
 
@@ -76,7 +74,6 @@ export default defineComponent({
     IonCardHeader,
     IonCardTitle,
     IonButton,
-    IonCol,
     IonRow,
     IonGrid
   },
